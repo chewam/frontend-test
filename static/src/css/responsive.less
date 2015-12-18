@@ -1,0 +1,31 @@
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){ 
+
+    body {
+        align-items: stretch;
+    }
+
+    #app {
+        flex: 1;
+    }
+
+    .counters {
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+
+        .list {
+            flex: 1;
+
+            .counter {
+
+                button {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+}

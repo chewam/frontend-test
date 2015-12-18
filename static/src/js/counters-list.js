@@ -29,7 +29,7 @@ var CountersList = React.createClass({
 
         return (
             <div className="list">
-                <ReactCSSTransitionGroup transitionName="example" transitionEnterTimeout={500} transitionLeaveTimeout={300}>
+                <ReactCSSTransitionGroup transitionName="listitem" transitionEnterTimeout={500} transitionLeaveTimeout={300}>
                     {counters}
                 </ReactCSSTransitionGroup>
             </div>
