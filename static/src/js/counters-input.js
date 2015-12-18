@@ -21,8 +21,6 @@ var CountersInput = React.createClass({
                     value={this.state.title}
                     placeholder="Add a counter..."
                     onChange={this.handleTitleChange} />
-                <button type="submit" className="fa fa-plus-square">
-                </button>
             </form>
         );
     }
